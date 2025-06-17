@@ -29,7 +29,9 @@ It captures live video feed, detects human faces frame-by-frame, and highlights 
 ```bash
 face-detection-system/
 │
-├── face_detection.py         # Main Python script
+├── Face_Detection_System.py         # Main Python script
+├── Important NOTE                   # A Crucial Note for future Developer
+├── LICENSE                          # LICENSE for it
 ├── haarcascade_frontalface_default.xml   # Haar cascade classifier (use local path)
 └── README.md                 # Project documentation
 ```
@@ -49,7 +51,7 @@ face-detection-system/
 ### Make sure you have the haarcascade_frontalface_default.xml file. It's usually located at:
 - <your-python-install-path>/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml
 
-###📌 NOTE: Update the path in the script to match your local system. Example:
+### 📌 NOTE: Update the path in the script to match your local system. Example:
 - face_cascade = cv2.CascadeClassifier("C:/Users/HP/AppData/Local/Programs/Python/Python310/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml")
 
 --- 
